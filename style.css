@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  padding: 40px;
+  background-color: white;
+  color: black;
+}
+
+header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.container {
+  margin: 40px 0;
+}
+
+.wrapper {
+  height: 400px;
+  padding: 10px;
+  background-color: slategray;
+  margin: 10px 0;
+}
+
+.box {
+  height: 80px;
+  width: 80px;
+  background-color: whitesmoke;
+  margin: 10px;
+}
+
+.box-2 {
+  height: 60px;
+  width: 60px;
+  background-color: whitesmoke;
+  margin: 10px;
+}
+
+.box-3 {
+  height: 40px;
+  width: 40px;
+  background-color: whitesmoke;
+  margin: 10px;
+}
+
+/* Horizontal Row */
+.wrapper-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* Vertical Row */
+.wrapper-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* Horizontal & Vertical Row */
+.wrapper-3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Horizontal Column */
+.wrapper-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Vertical Column */
+.wrapper-5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Horizontal & Vertical Column */
+.wrapper-6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Vertical Row Align Self */
+.wrapper-7 {
+  display: flex;
+}
+
+.wrapper-7 div {
+  align-self: center;
+}
+
+/* Horizontal Column Align Self */
+.wrapper-8 {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper-8 div {
+  align-self: center;
+}
+
+/* Horizontal Reverse Row */
+.wrapper-9 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+/* Vertical Reverse Row */
+.wrapper-10 {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+/* Horizontal Reverse Column */
+.wrapper-11 {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+/* Vertical Reverse Column */
+.wrapper-12 {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+}
+
+/* Nested Example 1 */
+.wrapper-13 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inner-container-13 {
+  display: flex;
+  align-items: center;
+  background-color: darkgray;
+}
+
+/* Nested Example 2 */
+.wrapper-14 {
+  display: flex;
+  align-items: center;
+}
+
+.inner-container-14 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: darkgray;
+}
